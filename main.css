@@ -1,3 +1,35 @@
 /*Inserindo fontes externas (google)*/
 @import url('https://fonts.googleapis.com/css?family=Sunflower:300');
 @import url('https://fonts.googleapis.com/css?family=Nunito');
+
+#menu ul {
+    padding:5px;
+    margin:0;
+    background-color:#0A2619;
+    list-style:none;
+    color:black;
+}
+
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    padding: 16px 100px;
+    display: inline-block;
+
+    /* visual do link */
+    background-color:#0A2619;
+    color: white;
+    text-decoration: none;
+    text-align: right;
+    border-bottom:2px solid #EDEDED;
+    border-radius: 5px 15px 8px 10px;
+    border-top: 2px solid #EDEDED;
+    font-family: 'Sunflower', sans-serif;
+    margin-left:2px;
+    margin-right: 1px;
+}
+
+#menu ul li a:hover{
+    color:#77DBAB;
+    font-size:1.1em;
+}
