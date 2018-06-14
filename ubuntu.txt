@@ -19,3 +19,8 @@ sudo tar xvjf $PHANTOM_JS.tar.bz2
 sudo mv $PHANTOM_JS /usr/local/share
 sudo ln -sf /usr/local/share/$PHANTOM_JS/bin/phantomjs /usr/local/bin
 phantomjs --version
+
+<--comando no bash para gerar pdf-->
+phantomjs /phantompdf.js (é o nome do arquivo)
+
+

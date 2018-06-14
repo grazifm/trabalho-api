@@ -4,3 +4,4 @@ page.open('https://trabalho-api-grazifm.c9users.io/index.html', function() {
   page.render('musicalizando.pdf');
   phantom.exit();
 });
+
