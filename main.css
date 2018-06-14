@@ -89,3 +89,26 @@ hr {
     margin-left:auto;
     margin-right:auto;
 }
+
+footer{
+    background-image: url('img/faixa2.png');
+    background-repeat: repeat;
+    background-position: center center;
+    background-size: cover;
+	width: 100%;
+	display:inline-block;
+	position: relative;
+	clear:both;
+}
+
+
+footer .rights{
+    font-family: 'Sunflower', sans-serif;
+	color: #EF7114;
+	font-size: 2em;
+	font-weight: normal;
+	margin: 0;
+	padding: 8%;
+	text-align: center;
+	clear:both;
+}
