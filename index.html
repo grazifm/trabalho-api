@@ -3,11 +3,32 @@
 <head>
     <meta charset="UTF-8">
 	<title>Musicalizando</title>
+	<!--Colocando imagem na barra de navegação da página-->
 	<link rel="icon" href="img/clavesol.png" type="image/x-icon" />
+	<!--AJAX para consumir a API-->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<!--Folha de estilos externa-->
 	<link rel="stylesheet" type="text/css" href="main.css">
-	 <!-- Loading the Deezer SDK -->
+	 <!-- Carregando Deezer SDK -->
 	<script type="text/javascript" src="http://cdn-files.deezer.com/js/min/dz.js"></script>
 	<script type="text/javascript" src="responsive.js"></script>
 
 </head>
+
+<body>
+		<header>
+				<nav id="menu">
+					<ul>
+						<li><a href="#home">Home</a></li>
+						<li><a href="#qsomos">Quem Somos</a></li>
+						<li><a href="#noticias">Notícias</a></li>
+        				<li><a href="#listas">Listas</a></li>
+        		        <li><a href="#contato">Contato</a></li>
+						</ul>
+				</nav>
+        </header>
+        <br>
+        <img class="logotipo" src="img/logo3.png" alt="logotipo-musicalizando"
+    onMouseOver="this.src='img/logotroca.png'"
+	onMouseOut="this.src='img/logo3.png'"
+	onClick="location='http://www.google.com.br'">
