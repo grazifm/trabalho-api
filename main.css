@@ -45,3 +45,47 @@
     margin-right: auto;
     display:block;
 }
+
+
+.logotipo{
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+
+#qsomos{
+    font-family: 'Nunito', sans-serif;
+    text-align: justify;
+}
+
+#listas{
+    font-family: 'Nunito', sans-serif;
+    text-align: justify;
+}
+
+#noticias{
+  font-family: 'Nunito', sans-serif;
+    text-align: justify;  
+}
+
+span{
+    color:#DB6D12;
+}
+
+span p:hover{
+    text-transform: uppercase;
+	color: #DB6D12;
+	border-color: black;
+	border-radius: 5px 15px 5px 15px;
+}
+
+hr {
+      color: #DB6D12;
+      background-color: #DB6D12;
+      height: 2px;
+    }
+
+.video{
+    margin-left:auto;
+    margin-right:auto;
+}
