@@ -1,0 +1,11 @@
+# trabalhoapi
+git pull - para trazer a ultima atualização para sua IDE do c9.
+
+    git status - mostra divergências do arquivo aberto para o inserido no git.
+
+Para subir arquivo atualizado:
+
+    git add . - adiciona todos os arquivos para a fila.
+
+    git commit -m " TEXTO " - comenta a atualização que será inserida no repositório.
+    
