@@ -38,7 +38,7 @@
         	<p>Somos um blog de música, dedicado a oferecer um pouquinho de tudo sobre artistas em alta, clássicos, análises de álbuns, notícias e afins! Aceitamos e ficamos felizes com opiniões e sugestões :D</p>
         </section>
          <hr>
-    <!--segunda seção - listas (ancora menu)-->     
+    <!--Segunda seção - listas (ancora menu)-->     
     <section id="listas">
         <h1>Listas</h1>
         <span><p>O melhor do  RBD</p></span>
@@ -47,4 +47,13 @@
        <p>Abaixo listamos, numa playlist do Deezer &copy bem nostálgica, algumas das melhores músicas do RBD e de alguns dos integrantes em suas respectivas carreiras solo e em parcerias.</p>
         </p>
         </section>
-            
+        <!--Script do Deezer-->
+        <script>
+	(function(d, s, id) { 
+	var js, djs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return; 
+	js = d.createElement(s); js.id = id; 
+	js.src = "https://e-cdns-files.dzcdn.net/js/widget/loader.js"; 
+	 djs.parentNode.insertBefore(js, djs);
+}(document, "script", "deezer-widget-loader"));
+        </script>    
