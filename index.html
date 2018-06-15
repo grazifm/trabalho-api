@@ -14,23 +14,50 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.mi"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+   
 
 </head>
 
 <body>
+    <link href="http://fonts.googleapis.com/css?family=Arimo:400" rel="stylesheet">
+
+    <a class="menu-bar" data-toggle="collapse" href="#menu">
+            <span class="bars"></span>            
+        </a>
+    	<div class="collapse menu" id="menu">
+            <ul class="list-inline">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#qsomos">Quem Somos</a></li>
+                <li><a href="#noticias">Notícias</a></li>
+                <li><a href="#listas">Listas</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>   
+    	</div>
+
+        <div class="container">
+            <div class="row">
+            </div>
+        </div> 
+    <!--
 		<header>
-				<nav id="menu">
-					<ul>
-						<li><a href="#home">Home</a></li>
-						<li><a href="#qsomos">Quem Somos</a></li>
-						<li><a href="#noticias">Notícias</a></li>
-        				<li><a href="#listas">Listas</a></li>
-        		        <li><a href="#contato">Contato</a></li>
-						</ul>
+		    <nav id="menu">
+		    <div class="menu" id="myMenu">
+		        <ul>
+		<li><a href="#home" id="selected">Home</a></li>
+		<li><a href="#qsomos">Quem Somos</a></li>
+		<li><a href="#noticias.html">Notícias</a></li>
+		<li><a href="#listas">Listas</a></li>
+		<li><a href="#contato">Contato</a></li>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+	       </div>
+			   </ul>
 				</nav>
         </header>
+        
+        -->
         <br>
         
         <img class="logotipo" src="img/logo3.png" alt="logotipo-musicalizando"
@@ -42,7 +69,7 @@
         	<h1>Quem somos?</h1>
         	<p>Somos um blog de música, dedicado a oferecer um pouquinho de tudo sobre artistas em alta, clássicos, análises de álbuns, notícias e afins! Aceitamos e ficamos felizes com opiniões e sugestões :D</p>
         </section>
-         <hr>
+         <hr class="line">
     <!--Segunda seção - listas (ancora menu)-->     
     <section id="listas">
         <h1>Listas</h1>
@@ -65,7 +92,7 @@
         <!--DIV com info do player - puxando playlist do DEEZER"-->
         <div align="center" class="deezer-widget-player" data-src="https://www.deezer.com/plugins/player?format=classic&autoplay=false&playlist=true&width=700&height=350&color=E25966&layout=dark&size=medium&type=playlist&id=2859785846&app_id=283124" data-scrolling="no" data-frameborder="0" data-allowTransparency="true" data-width="700" data-height="350"></div>
         </section>
-        <hr>
+        <hr class="line">
          <!--Terceira seção - listas (ancora menu)-->  
         <section id="listas">
         <span><p>Top 10 de JAZZ (e rimou! rs..)</p></span>
@@ -83,6 +110,7 @@
 <!--DIV com info do player - puxando playlist do DEEZER"-->
 <div align="center" class="deezer-widget-player" data-src="https://www.deezer.com/plugins/player?format=classic&autoplay=false&playlist=true&width=700&height=350&color=E25966&layout=dark&size=medium&type=playlist&id=4555329068&app_id=283124" data-scrolling="no" data-frameborder="0" data-allowTransparency="true" data-width="700" data-height="350"></div>
         </section>
+        <hr class="line">
         <!--Seção de Notícias (#1)-->
         <section id="noticias">
         	<h1>Notícias</h1>
@@ -102,10 +130,12 @@ O tema “The Adventures of Han” foi composto e dirigido por John Williams. Es
     <iframe  width="560" height="315" src="https://www.youtube.com/embed/gGrxWwG2mLo" frameborder="0" allow="autoplay; encrypted-media" allowfullscr></iframe>
     </div>
     </p>
+    <p>
 John Williams escreveu as bandas sonoras de todos os oito filmes da saga Star Wars, tendo vencido em 1977 o Óscar de Melhor Banda sonora com o primeiro “A New Hope”. Recentemente, foi nomeado para um Óscar pela banda sonora de “Star Wars: The Last Jedi”.
 
 A banda sonora de “Han Solo: Uma História de Star Wars” <a target="_blank" href="https://universalmusicportugal.lnk.to/SoloStarWPR?CID=988247247&LA=988242779&CommID=1406967977&SC=PT&LI=987853186">já está disponível</a>, sendo que o filme já estreou nas salas de cinema.
             </p>
+            <hr class="line">
             <!--Span com outra notícia-->
             <span><p>Selena Gomez é acusada de plágio no clipe de 'Back to you'</p></span>
         <p>
@@ -119,6 +149,7 @@ Pelo Instagram e Twitter, várias pessoas comentaram coisas como “não é só 
 
 Mas alguns fãs também defenderam a cantora dizendo que a artista “não inventou o conceito de legendas e palavras sobre fotos” e que, na verdade, Selena “se inspirou em um filme dos anos 1960 e no cinema mudo em si.”
 </p>
+<hr class="line">
 	<span><p>Hit do Fall Out Boy vira balada dos Anos 80 em versão de fã</p></span>
         	<p>
         	Johan Olsson é um YouTuber especializado em transformar grandes hits de bandas mais “jovens” como se tivessem sido lançados nos anos 80.
@@ -138,10 +169,13 @@ Parece muito aquelas músicas que tocam nos bailes de High School nos filmes, sa
 O Fall Out Boy lançou esse ano o Mania, seu sétimo álbum de estúdio. Nele, o grupo deixou as origens no punk rock de vez e mergulhou de vez no pop com vários arranjos eletrônicos.
 </p>   
         </section>
+        <hr class="line">
         <section id="contato">
         <div class="contact7">
             <div class="container">
                 <div class="text-center">
+                    
+                    <!--Form Contato (uso de bootstrap)-->
                     <h1>Contato</h1>
                     <h3>Fale com a gente!</h3>
                 </div>

@@ -2,38 +2,85 @@
 @import url('https://fonts.googleapis.com/css?family=Sunflower:300');
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
+body{
+    margin: 0;
+	height: 100%;
+	position: absolute;
+	min-height: 100%;
+}
+
+/*
 #menu ul {
     padding:5px;
     margin:0;
-    background-color:#0A2619;
+    background-color:white;
     list-style:none;
-    color:black;
+    text-align: justify;
 }
 
-#menu ul li { display: inline; }
+#menu ul li { display: inline;}
 
 #menu ul li a {
-    padding: 16px 100px;
-    display: inline-block;
-
-    /* visual do link */
+    padding: 14px 100px;
+    display: inline;
+    margin-left: auto;
+    margin-right:auto;
+    visual do link 
     background-color:#0A2619;
     color: white;
     text-decoration: none;
-    text-align: right;
-    border-bottom:2px solid #EDEDED;
     border-radius: 5px 15px 8px 10px;
-    border-top: 2px solid #EDEDED;
+    
     font-family: 'Sunflower', sans-serif;
-    margin-left:2px;
-    margin-right: 1px;
+    font-size: 1em;
 }
 
 #menu ul li a:hover{
     color:#77DBAB;
     font-size:1.1em;
 }
+*/
+body {
+    font-family: 'Arimo', sans-serif;
+    padding-top: 50px;
+}
 
+.menu-bar {
+    position: absolute;
+    top: 20px;    
+    left: 50%;
+    height: 14px;
+    margin-left: -10px;
+}
+
+.bars {
+    display: block;
+    width: 20px;
+    height: 3px;    
+    background-color: #333;
+    box-shadow: 0 5px 0 #333, 0 10px 0 #333;
+}
+
+.menu {
+    display: none; 
+    width: 100%;
+    padding: 30px 10px 50px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+}
+.menu ul {
+    margin-bottom: 0;
+}
+.menu a {
+    color: #333; 
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+    menu a:hover {
+    text-decoration: none;
+    opacity: 1;
+}
 .selena{
     margin-left:auto;
     margin-right: auto;
@@ -79,9 +126,9 @@ span p:hover{
 	border-radius: 5px 15px 5px 15px;
 }
 
-hr {
-      color: #DB6D12;
-      background-color: #DB6D12;
+.line {
+      color: #2F4F4F;
+      background-color: #2F4F4F	;
       height: 2px;
     }
 
@@ -193,10 +240,4 @@ p{
 	margin-right: 5px;
 }
 
-@media only screen and (max-width: 420px){
-	.contact7 .contact7-form {
-		border: 5px solid  #DB6D12;
-		border-radius: 0%;
-		padding: 10px 10px 10px 10px;
-	}
-}
+
