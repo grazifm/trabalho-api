@@ -98,6 +98,9 @@ body{
     line-height: 22px;
 }
 
+.alignphantom p{
+    text-align:center;
+}
     .search input {
         position: absolute;
         width: 0px;
